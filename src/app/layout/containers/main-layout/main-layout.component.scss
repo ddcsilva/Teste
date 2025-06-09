@@ -60,7 +60,8 @@
   flex: 1;
   background-color: #fff;
   transition: margin-left 0.3s ease;
-  margin-left: 0;
+  width: 100%;
+  min-width: 0;
 }
 
 .main-content-expanded {
@@ -70,5 +71,6 @@
 .content-inner {
   padding: 20px;
   height: 100%;
+  width: 100%;
   overflow-y: auto;
 }
