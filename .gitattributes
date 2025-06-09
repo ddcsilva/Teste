@@ -1,0 +1,23 @@
+# Set default behavior to automatically normalize line endings
+* text=auto
+
+# TypeScript files
+*.ts text eol=lf
+*.js text eol=lf
+
+# HTML files
+*.html text eol=lf
+
+# CSS/SCSS files
+*.css text eol=lf
+*.scss text eol=lf
+
+# JSON files
+*.json text eol=lf
+
+# Markdown files
+*.md text eol=lf
+
+# Configuration files
+*.yml text eol=lf
+*.yaml text eol=lf

@@ -1,0 +1,45 @@
+<div class="filtros-card">
+  <!-- Linha dos inputs para filtros -->
+  <div class="filtros-inputs">
+    <ng-content select="[slot=inputs]"></ng-content>
+  </div>
+
+  <!-- Linha dos botões -->
+  <div class="filtros-acoes">
+    <button
+      *ngIf="config.mostrarPesquisar"
+      type="button"
+      class="btn btn-primary"
+      (click)="onPesquisar()"
+    >
+      {{ config.labelPesquisar }}
+    </button>
+
+    <button
+      *ngIf="config.mostrarIncluir"
+      type="button"
+      class="btn btn-success"
+      (click)="onIncluir()"
+    >
+      {{ config.labelIncluir }}
+    </button>
+
+    <button
+      *ngIf="config.mostrarLimpar"
+      type="button"
+      class="btn btn-secondary"
+      (click)="onLimpar()"
+    >
+      {{ config.labelLimpar }}
+    </button>
+
+    <button
+      *ngIf="config.mostrarExportar"
+      type="button"
+      class="btn btn-info"
+      (click)="onExportar()"
+    >
+      {{ config.labelExportar }}
+    </button>
+  </div>
+</div>
