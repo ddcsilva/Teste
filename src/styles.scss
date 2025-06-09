@@ -23,11 +23,11 @@ app-root {
 
 /* Básico para links */
 a {
-  color: #2196f3;
+  color: #2196F3;
 }
 
 a:hover {
-  color: #1976d2;
+  color: #1976D2;
 }
 
 /* Básico para botões */
@@ -40,4 +40,61 @@ ul,
 ol {
   margin: 0;
   padding: 0;
+}
+
+/* ========== CLASSES UTILITÁRIAS PARA PÁGINAS ========== */
+
+/* Container principal das páginas */
+.page-container {
+  width: 100%;
+  height: 100%;
+}
+
+/* Card padrão para conteúdo das páginas */
+.page-card {
+  background: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  width: 100%;
+  max-width: none;
+}
+
+/* Título principal das páginas */
+.page-title {
+  color: #2196F3;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+/* Subtítulo das páginas */
+.page-subtitle {
+  color: #666;
+  margin-bottom: 20px;
+}
+
+/* Grid de features/cards */
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-top: 30px;
+}
+
+/* Item individual do grid */
+.feature-item {
+  padding: 20px;
+  background: #f8f9fa;
+  border-radius: 6px;
+  border-left: 4px solid #2196F3;
+}
+
+.feature-item h4 {
+  margin-top: 0;
+  color: #333;
+}
+
+.feature-item p {
+  color: #666;
+  margin-bottom: 0;
 }
