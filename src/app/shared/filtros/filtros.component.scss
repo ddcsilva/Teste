@@ -10,34 +10,35 @@
   margin-bottom: 20px;
 }
 
-:host ::ng-deep [slot='inputs'] {
-  display: flex !important;
+/* Estilo global para os inputs do filtro */
+.filtros-inputs-flex {
+  display: flex;
   gap: 15px;
   flex-wrap: wrap;
 }
 
-:host ::ng-deep .form-group {
+.filtros-inputs-flex .form-group {
   flex: 1;
   min-width: 200px;
 }
 
-:host ::ng-deep label {
+.filtros-inputs-flex label {
   display: block;
   margin-bottom: 5px;
   color: #333;
   font-weight: 500;
 }
 
-:host ::ng-deep input,
-:host ::ng-deep select {
+.filtros-inputs-flex input,
+.filtros-inputs-flex select {
   width: 100%;
   padding: 8px 12px;
   border: 1px solid #ddd;
   border-radius: 4px;
 }
 
-:host ::ng-deep input:focus,
-:host ::ng-deep select:focus {
+.filtros-inputs-flex input:focus,
+.filtros-inputs-flex select:focus {
   outline: none;
   border-color: #2196f3;
 }
@@ -79,7 +80,7 @@
 // Responsividade
 @media (max-width: 768px) {
   .filtros-inputs {
-    ::ng-deep {
+    .filtros-inputs-flex {
       flex-direction: column;
 
       .form-group {
