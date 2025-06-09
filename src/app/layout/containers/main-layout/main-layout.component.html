@@ -3,15 +3,7 @@
 
   <div class="content-wrapper">
     <nav class="sidenav" [class.sidenav-open]="menuAberto">
-      <div class="sidenav-content">
-        <h3>Menu</h3>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Operações</a></li>
-          <li><a href="#">Serviços</a></li>
-          <li><a href="#">Contato</a></li>
-        </ul>
-      </div>
+      <app-sidenav></app-sidenav>
     </nav>
 
     <main class="main-content" [class.main-content-expanded]="!menuAberto">

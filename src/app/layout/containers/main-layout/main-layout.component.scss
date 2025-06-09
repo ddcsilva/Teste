@@ -22,40 +22,6 @@
   margin-left: 0;
 }
 
-.sidenav-content {
-  padding: 20px;
-}
-
-.sidenav h3 {
-  margin-top: 0;
-  color: #333;
-  font-size: 18px;
-}
-
-.sidenav ul {
-  list-style: none;
-  padding: 0;
-  margin: 20px 0 0 0;
-}
-
-.sidenav li {
-  margin-bottom: 10px;
-}
-
-.sidenav a {
-  text-decoration: none;
-  color: #666;
-  padding: 8px 12px;
-  display: block;
-  border-radius: 4px;
-  transition: background-color 0.2s ease;
-}
-
-.sidenav a:hover {
-  background-color: #e0e0e0;
-  color: #333;
-}
-
 .main-content {
   flex: 1;
   background-color: #fff;

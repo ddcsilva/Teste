@@ -1,0 +1,33 @@
+.sidenav-content {
+  padding: 20px;
+}
+
+h3 {
+  margin-top: 0;
+  color: #333;
+  font-size: 18px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0 0 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #666;
+  padding: 8px 12px;
+  display: block;
+  border-radius: 4px;
+  transition: background-color 0.2s ease;
+}
+
+a:hover {
+  background-color: #e0e0e0;
+  color: #333;
+}
