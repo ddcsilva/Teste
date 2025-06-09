@@ -1,0 +1,19 @@
+/* Reset básico e normalização */
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Reset básico para listas */
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}

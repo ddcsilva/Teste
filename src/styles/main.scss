@@ -1,0 +1,13 @@
+/* Arquivo principal de estilos - orquestra todos os outros */
+
+/* 1. Reset e normalização primeiro */
+@import 'reset';
+
+/* 2. Estilos base da aplicação */
+@import 'base';
+
+/* 3. Classes utilitárias */
+@import 'utilities';
+
+/* 4. Componentes reutilizáveis */
+@import 'components';
