@@ -18,6 +18,12 @@ export const routes: Routes = [
         component: HomeComponent,
         title: 'Home',
       },
+      {
+        path: 'servico',
+        loadChildren: () =>
+          import('./features/servico/servico-routing.module').then(m => m.ServicoRoutingModule),
+        title: 'Serviços',
+      },
     ],
   },
 ];
